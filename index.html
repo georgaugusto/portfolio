@@ -22,8 +22,11 @@
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width" />
+  <meta name="author" content="Georg Augusto Schlegel">
+  <meta name="keywords" content="Schlegel, Georg, Portfólio, Desenvolvedor">
+  <meta name="description"
+    content="Portfólio de com alguns projetos que realizei durante minha jornada e infomações sobre mim">
   <title>Georg Schlegel | Portfólio</title>
-
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -33,7 +36,7 @@
 
 <body>
   <header>
-    <p></p>
+    <span>Portfólio</span>
     <div class="headerMenu">
       <a href="#sectionWhat">
         <p>Experiência</p>
@@ -93,7 +96,7 @@
     <div class="sectionWhatNumbers">
       <div>
         <h1>01.</h1>
-        <h3 class="green">FiveSoftware<b>, Desenvolvedor</b></h3>
+        <h3 class="green"><a href="http://fivesoftware.com.br">FiveSoftware</a><b>, Desenvolvedor</b></h3>
         <p>
           Comecei minha carreira de desenvolvedor com a FiveSoftware. Responsável pelo desenvolvimento e manutenção dos
           sites da empresa, montagem de E-mail marketing e Newsletter. Auxiliar nos desenvolvimentos da empresa, com
@@ -104,7 +107,7 @@
       </div>
       <div>
         <h1>02.</h1>
-        <h3 class="blue">CEDET<b>, Professor voluntário</b></h3>
+        <h3 class="blue"><a href="https://www.educacao.assis.sp.gov.br/projeto/26/cedet">CEDET</a><b>, Professor voluntário</b></h3>
         <p>
           Eu lecionei aulas de robótica e programação utilizando a plataforma Arduíno, desenvolvendo projetos,
           atividades e competições.
@@ -114,12 +117,22 @@
       </div>
       <div>
         <h1>03.</h1>
-        <h3 class="pink">Fomenta Vale<b>, Dev. Front-End</b></h3>
+        <h3 class="pink"><a href="https://www.fomentavale.com.br">Fomenta Vale</a><b>, Dev. Front-End</b></h3>
         <p>
-          Atualmente responsável pelo desenvolvimento e manutenção das aplicações internas, utilizando as linguagens de
+          Fui responsável pelo desenvolvimento e manutenção das aplicações internas, utilizando as linguagens de
           programação HTML, CSS puro e Js, utilizando flex-box, metodologia clean code, deploy contínuo com o GitHub.
           <br>
-          Período: set. de 2020 – o momento
+          Período: set. de 2020 – dez. de 2020
+        </p>
+      </div>
+      <div>
+        <h1>04.</h1>
+        <h3 class="red"><a href="http://www.novamcp.com.br">NovaMCP</a><b>, Dev. Web</b></h3>
+        <p>
+          Atualmente trabalho com o desenvolvimento de sites institucionais e blogs, além de dar suporte a lojas online. Utilizando
+          HTML5, CSS, JavaScript, Wordpress, e técnicas de SEO para a otimização de sites.
+          <br>
+          Período: jan. de 2021 – o momento
         </p>
       </div>
     </div>
@@ -464,7 +477,7 @@
           <span>LinkedIn</span>
         </div>
         <div>
-          <a href="https://wa.me/55${18997734154}?text=Aló Georg!"><img src="/assets/whatsapp.png" alt=""></a>
+          <a href="https://wa.me/55${18997734154}?text=Alô Georg!"><img src="/assets/whatsapp.png" alt=""></a>
           <span>WhatsApp</span>
         </div>
         <div>
@@ -489,7 +502,7 @@
             E-mail:
           </p>
         </div>
-        <input name="email" type="email" title="Digite um email válido" placeholder="E-mail" required>
+        <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Digite um email válido" placeholder="E-mail" required>
         <div>
           <p>
             <b class="asterisk">*</b>
@@ -497,7 +510,7 @@
           </p>
         </div>
         <input name="message" type="text" title="Digite uma mensagem válida" placeholder="Message" required>
-        <input name="redirectTo" type="hidden" value="https://georgaugusto.netlify.app/">
+        <input name="redirectTo" type="hidden" value="https://georgaugusto.netlify.app">
         <br>
         <input type="submit" value="Enviar">
       </form>

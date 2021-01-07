@@ -37,6 +37,17 @@ header {
   padding: 25px 10px;
 }
 
+header span {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #ffffff;
+  padding-left: 25px;
+}
+
 .headerMenu a {
   text-decoration: none;
 }
@@ -173,16 +184,44 @@ header {
   padding: 0px 25px 0px 25px;
 }
 
-.green {
+.green, .green a {
   color: #3cc74e;
+
+  text-decoration: none;
 }
 
-.blue {
+.green a:hover {
+  text-decoration: underline;
+}
+
+.blue, .blue a {
   color: #609bff;
+
+  text-decoration: none;
 }
 
-.pink {
+.blue a:hover {
+  text-decoration: underline;
+}
+
+.pink, .pink a {
   color: #e95d90;
+
+  text-decoration: none;
+}
+
+.pink a:hover {
+  text-decoration: underline;
+}
+
+.red, .red a {
+  color: #e7203f;
+
+  text-decoration: none;
+}
+
+.red a:hover {
+  text-decoration: underline;
 }
 
 hr {
@@ -723,6 +762,10 @@ footer h1 {
     flex-direction: column;
   }
 
+  header span {
+    padding: 30px 0 0 0;
+  }
+
   header img {
     background-color: #ffffff;
   }
@@ -733,7 +776,7 @@ footer h1 {
     text-align: center;
     flex-direction: column;
 
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   .sectionTop {
@@ -1004,7 +1047,7 @@ footer h1 {
     width: 100%;
   }
 
-  .contactText h2{
+  .contactText h2 {
     padding-top: 0px;
   }
 
