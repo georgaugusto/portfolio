@@ -692,6 +692,8 @@ hr {
   color: #666666;
   border: none;
 
+  cursor: pointer;
+
   font-family: Sen;
   font-style: normal;
   font-weight: bold;
@@ -838,121 +840,6 @@ footer h1 {
   .sectionWhatNumbers h1 {
     font-size: 117px;
     line-height: 141px;
-  }
-
-  .history {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .historyFounder {
-    display: none;
-  }
-
-  .founderLogo {
-    flex-wrap: wrap;
-  }
-
-  .program {
-    flex-wrap: wrap;
-    padding: 40px 10px 40px 10px;
-  }
-
-  .program p {
-    padding: 0px 0px 40px 0px;
-  }
-
-  .programInsideBox p {
-    padding: 35px 0px 0px 0px;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 150%;
-  }
-
-  .programInsideBox span {
-    padding: 0px 0px 0px 30px;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 150%;
-  }
-
-  .mentors {
-    padding: 40px 10px 40px 10px;
-  }
-
-  .mentors button {
-    width: 100%;
-    margin: 0px 0px 10px 0px;
-  }
-
-  .active,
-  .mentors button:hover {
-    width: 100%;
-    margin: 0px 0px 10px 0px;
-  }
-
-  .person {
-    padding: 10px 0px 0px 0px;
-  }
-
-  .coffee {
-    flex-wrap: wrap;
-  }
-
-  .coffee div {
-    width: 100%;
-  }
-
-  .coffee p {
-    padding: 5px 25px 0px 25px;
-  }
-
-  .moreCoffee {
-    margin: 40px 25px 20px 0px;
-  }
-
-  .supporters {
-    flex-wrap: wrap;
-
-  }
-
-  .supporters p {
-    padding-bottom: 30px;
-  }
-
-  .supportersMobile {
-    display: flex;
-    padding-bottom: 30px;
-  }
-
-  .hide {
-    display: none;
-  }
-
-  .supportersText {
-    padding-left: 0px;
-  }
-
-  .supportersImg {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .cast {
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-  }
-
-  .cast h2 {
-    padding: 25px 0px 0px 25px;
-  }
-
-  .cast p {
-    padding: 5px 0px 0px 25px;
-  }
-
-  .moreCast {
-    margin: 40px 0px 20px 0px;
   }
 
   .myProjectsDescriptions {
