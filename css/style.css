@@ -184,7 +184,8 @@ header span {
   padding: 0px 25px 0px 25px;
 }
 
-.green, .green a {
+.green,
+.green a {
   color: #3cc74e;
 
   text-decoration: none;
@@ -194,7 +195,8 @@ header span {
   text-decoration: underline;
 }
 
-.blue, .blue a {
+.blue,
+.blue a {
   color: #609bff;
 
   text-decoration: none;
@@ -204,7 +206,8 @@ header span {
   text-decoration: underline;
 }
 
-.pink, .pink a {
+.pink,
+.pink a {
   color: #e95d90;
 
   text-decoration: none;
@@ -214,7 +217,8 @@ header span {
   text-decoration: underline;
 }
 
-.red, .red a {
+.red,
+.red a {
   color: #e7203f;
 
   text-decoration: none;
@@ -649,6 +653,44 @@ hr {
 
 .contactMedia img {
   width: 40px;
+}
+
+.curriculum {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 0 0 0;
+}
+
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  border-radius: 0.12em;
+  margin: 0 0.3em 0.3em 0;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  color: #FFFFFF;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .contactForm {
