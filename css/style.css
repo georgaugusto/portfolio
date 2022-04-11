@@ -4,7 +4,7 @@ body {
   width: 100%;
   max-width: 1920px;
   margin: 0px auto;
-  font-family: 'Sen', sans-serif;
+  font-family: "Sen", sans-serif;
   background-color: black;
 }
 
@@ -127,7 +127,7 @@ header span {
   line-height: 150%;
   text-transform: uppercase;
 
-  color: #8491A0;
+  color: #8491a0;
   padding: 0px 25px 0px 25px;
 }
 
@@ -136,32 +136,43 @@ header span {
   font-weight: bold;
   font-size: 55px;
   line-height: 66px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0px 25px 0px 25px;
 }
 
 .sectionWhatNumbers {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .sectionWhatNumbers div {
+  display: flex;
+  flex-direction: row;
+
+  /* flex-wrap: wrap; */
+}
+
+.sectionWhatNumbers div div {
   width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
   padding: 45px 0px 75px 0px;
 }
 
-.sectionWhatNumbers h1 {
+.sectionWhatNumbers div h1 {
   font-family: Sen;
   font-style: normal;
   font-weight: normal;
   font-size: 117px;
   line-height: 141px;
 
-  color: #8491A0;
+  color: #8491a0;
   padding: 2px 25px 10px 25px;
 }
 
-.sectionWhatNumbers h3 {
+.sectionWhatNumbers div h3 {
   font-family: Sen;
   font-style: normal;
   font-weight: bold;
@@ -184,14 +195,14 @@ header span {
   padding: 0px 25px 0px 25px;
 }
 
-.green,
-.green a {
-  color: #3cc74e;
+.orange,
+.orange a {
+  color: #dc7015;
 
   text-decoration: none;
 }
 
-.green a:hover {
+.orange a:hover {
   text-decoration: underline;
 }
 
@@ -228,12 +239,34 @@ header span {
   text-decoration: underline;
 }
 
+.yellow,
+.yellow a {
+  color: #ffcd3d;
+
+  text-decoration: none;
+}
+
+.yellow a:hover {
+  text-decoration: underline;
+}
+
+.green,
+.green a {
+  color: #3cc74e;
+
+  text-decoration: none;
+}
+
+.green a:hover {
+  text-decoration: underline;
+}
+
 hr {
   width: 80%;
   margin: 0 auto;
   height: 1px;
   border: 0px;
-  background-color: #8491A0;
+  background-color: #8491a0;
   margin-bottom: 50px;
 }
 
@@ -254,7 +287,7 @@ hr {
   line-height: 66px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 25px;
 }
 
@@ -289,7 +322,7 @@ hr {
   font-size: 24px;
   line-height: 150%;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .skillsetBoxs div a {
@@ -347,7 +380,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/html5.svg');
+  background-image: url("../assets/technology/html5.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -359,7 +392,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/css3.svg');
+  background-image: url("../assets/technology/css3.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -371,7 +404,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/git.svg');
+  background-image: url("../assets/technology/git.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -383,7 +416,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/cplusplus.svg');
+  background-image: url("../assets/technology/cplusplus.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -395,7 +428,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/javascript.svg');
+  background-image: url("../assets/technology/javascript.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -407,7 +440,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/typescript.svg');
+  background-image: url("../assets/technology/typescript.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -419,7 +452,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/reactjs.svg');
+  background-image: url("../assets/technology/reactjs.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -431,7 +464,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/react-native.svg');
+  background-image: url("../assets/technology/react-native.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -443,7 +476,31 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/redux.svg');
+  background-image: url("../assets/technology/redux.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.nextjs {
+  background-color: rgb(41, 41, 46);
+  width: 50px !important;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url("../assets/technology/nextjs.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.jest {
+  background-color: rgb(41, 41, 46);
+  width: 50px !important;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url("../assets/technology/jest.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -455,7 +512,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/node.svg');
+  background-image: url("../assets/technology/node.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -467,7 +524,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/docker.svg');
+  background-image: url("../assets/technology/docker.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -479,7 +536,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/figma.svg');
+  background-image: url("../assets/technology/figma.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -491,7 +548,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/firebase.svg');
+  background-image: url("../assets/technology/firebase.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -503,7 +560,7 @@ hr {
   width: 50px !important;
   height: 50px;
   border-radius: 6px;
-  background-image: url('../assets/technology/arduino.svg');
+  background-image: url("../assets/technology/arduino.svg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
@@ -528,7 +585,7 @@ hr {
   line-height: 150%;
   text-transform: uppercase;
 
-  color: #8491A0;
+  color: #8491a0;
   padding: 0px 25px 0px 0px;
 }
 
@@ -537,7 +594,7 @@ hr {
   font-weight: bold;
   font-size: 55px;
   line-height: 66px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0px 25px 25px 0px;
 }
 
@@ -564,7 +621,7 @@ hr {
   line-height: 150%;
 
   padding: 20px 10px 20px 30px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .project p {
@@ -589,7 +646,7 @@ hr {
 .projectLinks a {
   text-decoration: none;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .projectLinks a:hover {
@@ -613,7 +670,7 @@ hr {
   font-size: 55px;
   line-height: 66px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   padding: 50px 25px 0px 25px;
 }
@@ -670,7 +727,7 @@ hr {
   text-align: center;
 
   padding: 0.35em 1.2em;
-  border: 0.1em solid #FFFFFF;
+  border: 0.1em solid #ffffff;
   border-radius: 0.12em;
   margin: 0 0.3em 0.3em 0;
 
@@ -682,7 +739,7 @@ hr {
   font-weight: normal;
   font-size: 18px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   cursor: pointer;
   transition: all 0.2s;
@@ -690,7 +747,7 @@ hr {
 
 .button:hover {
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .contactForm {
@@ -776,7 +833,7 @@ footer h1 {
   font-size: 14px;
   line-height: 150%;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .address span:first-child {
@@ -850,9 +907,15 @@ footer h1 {
   }
 
   .sectionWhat {
+    padding: 25px;
+  }
+
+  .sectionWhat div {
     display: flex;
     flex-direction: column;
-    padding: 50px 10px 50px 10px;
+
+    padding: 0;
+    /* padding: 50px 10px 50px 10px; */
   }
 
   .sectionWhat h1 {
@@ -862,16 +925,21 @@ footer h1 {
     font-size: 32px;
     line-height: 38px;
 
-    padding: 0px 25px 0px 25px;
-  }
+    padding: 0;
 
-  .sectionWhatNumbers {
-    display: flex;
-    flex-direction: column;
+    /* padding: 0px 25px 0px 25px; */
   }
 
   .sectionWhatNumbers div {
-    padding: 45px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+  }
+
+  .sectionWhatNumbers div div {
+    /* padding: 45px 0px 5px 0px; */
+    padding: 0;
   }
 
   .sectionWhatNumbers h3 {
